@@ -53,14 +53,14 @@ int main() {
     printf("\033[0m");
 
     char* horizontal_Line = " -------------------- \n";
-    char* vertical_Line = "¤ÓHayun1      - ¤± X¤Ó\n";
-    char* vertical_Line2 = "¤Ó                  ¤Ó\n";
+    char* vertical_Line = "Â¤Ã“Hayun1      - Â¤Â± XÂ¤Ã“\n";
+    char* vertical_Line2 = "Â¤Ã“                  Â¤Ã“\n";
 
     WindowAttributes window1 = {
         10,
         3,
-        22,
-        9,
+        20,
+        7,
         "HayunWindow1",
         "\033[47m\033[30m",
         horizontal_Line,
@@ -71,8 +71,8 @@ int main() {
     WindowAttributes window2 = {
         15,
         5,
-        22,
-        9,
+        20,
+        7,
         "HayunWindow2",
         "\033[43m\033[30m",
         horizontal_Line,
